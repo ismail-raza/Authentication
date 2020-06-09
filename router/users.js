@@ -1,5 +1,5 @@
-const controller= require('../controller/index');
-const {registration}= require('../valid');
+const controller = require('../controller/index');
+const {registration} = require('../middleware/valid');
 
 const users = require('express').Router();
 
